@@ -52,6 +52,8 @@ end
   gem 'popper_js', '~> 1.11.1'
   gem 'bootstrap', '4.0.0.alpha6'
   gem 'simple_form'
+  gem "geocoder"
+  gem "figaro"
 
 
   source 'https://rails-assets.org' do
