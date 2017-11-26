@@ -4,6 +4,7 @@
   <br /><br />
   <p><%= @place.description %></p>
 
+  
 <% if @place.latitude.present? && @place.longitude.present? %>  
   
   <script>
@@ -44,7 +45,10 @@
   </div>
 </div>
 
-<div class="clear"></div>
+
+
+
+
 
 
 
@@ -95,5 +99,9 @@
         <small><%= comment.user.email %></small>
     </blockquote>
     </div>
-    <% end %>
+     <% end %>
   </div>
+
+
+ 
+
