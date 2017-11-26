@@ -66,3 +66,4 @@ gem 'will_paginate', '>= 3.1'
 gem "font-awesome-rails"
 gem 'devise'
 gem 'carrierwave', '~> 1.0'
+gem "fog-aws"
